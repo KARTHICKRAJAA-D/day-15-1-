@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        tr,td,th{
+            border: 2px solid red;
+        }
+    </style>
+</head>
+<body>
+    <form id="form">
+        <label class="firstName">FirstName</label><br>
+        <input type="text" placeholder="firstName"><br>
+        <label class="lastName">LastName</label><br>
+        <input type="text" placeholder="lastName"><br>
+        <label class="gender">Gender</label><br>
+        <input type="text" placeholder="gender"><br>
+        <label class="address">Address</label><br>
+        <input type="text" placeholder="adress"><br>
+        <label class="pincode">pincode</label><br>
+        <input type="text" placeholder="pincode"><br>
+        <label class="state">state</label><br>
+        <input type="text" placeholder="state"><br>
+        <label class="country">country</label><br>
+        <input type="text" placeholder="country"><br>
+        <label class="food">Choice of food</label><br>
+        <input list="foods" placeholder="food"><br><br>
+        <datalist id="foods">
+            <option value="dosa">
+                <option value="idli">
+                    <option value="briyani">
+                
+        </datalist>
+
+        <button type="submit">Submit</button>
+
+    </form>
+
+    <div class="data">
+        <table>
+            <tr>
+                <th>FirstName</th>
+                <th>LastName</th>
+                <th>Gender</th>
+                <th>Address</th>
+                <th>pincode</th>
+                <th>state</th>
+                <th>country</th>
+                <th>Choice of food</th>
+            </tr>
+        </table>
+
+    </div>
+    
+</body>
+<script src="script.js"></script>
+</html>
